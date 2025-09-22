@@ -1,29 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #333;
+    }
+    nav {
+      margin-top: 30px;
+    }
+    nav a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 20px;
+      text-decoration: none;
+      background-color: #4CAF50;
+      color: white;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+    nav a:hover {
+      background-color: #45a049;
+    }
+  </style>
 </head>
 <body>
-    <h1>BYU ROCKS</h1>
-
-    <script>
-        let sFirstName = 'Matthew';
-        let sLastName = 'Andrus';
-        let sTelPhone = '123-456-7890';
-        let sDateOfBirth = '1990-01-01';
-        let bIsStudent = true;
-        let sGender = 'Male';
-
-        let sOutput = 'Name: ' + sFirstName + " " + sLastName +'\n'+
-                    'Telphone: ' + sTelPhone + '\n'+
-                    'Date of Birth: ' + sDateOfBirth + '\n'+
-                    'Is Student: ' + bIsStudent + '\n' +
-                    'Gender: ' + sGender + '\n';
-
-        console.log(sOutput)
-    </script>
-    
+  <h1>Welcome to Our Project</h1>
+  <p>Select a page to explore:</p>
+  
+  <nav>
+    <a href="page1.html">Page 1</a>
+    <a href="page2.html">Page 2</a>
+    <a href="page3.html">Page 3</a>
+  </nav>
 </body>
 </html>
